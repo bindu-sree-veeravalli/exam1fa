@@ -12,7 +12,7 @@ st.write("Explore the relationships between car features and price using visuali
 # Load the dataset
 @st.cache_data
 def load_data():
-    url = "https://raw.githubusercontent.com/klamsal/Fall2024Exam/refs/heads/main/CleanedAutomobile.csv"
+    url = "clean_df (2).csv"
     return pd.read_csv(url)
 
 df = load_data()
